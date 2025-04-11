@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohtasham Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            padding: 0%;
+            border: 0%;
+            margin: 0%;
+        }
+
+        .grid-container {
+            padding: auto;
+            display: grid;
+            /* grid-template-columns: 1fr 1fr; */
+            gap: 20px;
+            justify-self: center;
+            width: 90%;
+            max-width: 800px;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #1001;
+            border-radius: 10px;
+        }
+
+        .cbox {
+
+            background-color: rgb(223, 226, 228);
+            color: rgb(4, 4, 4);
+            padding: 5px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        /* Add hover effect */
+        /* .cbox:hover { */
+        /* transform: translateY(-40px); */
+        /* } */
+
+        /* Link styling */
+        .cbox a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            position: relative;
+            /* margin-top: 10px; */
+        }
+
+        .cbox h3 {
+            text-decoration: underline;
+            text-decoration-color: aqua;
+            text-decoration-thickness: calc(10%);
+            /* text-decoration-line: overline; */
+        }
+
+
+        .cbox a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <header>
+            <div>
+                <img src="logo .png">
+                <a href="index.html">
+                    <p>HOME</p>
+                </a>
+                <a href="projects.html">
+                    <p>Projects</p>
+                </a>
+                <a href="education.html">
+                    <p>Education</p>
+                </a>
+                <a href="contact.html">
+                    <p>Contact me</p>
+                </a>
+            </div>
+        </header>
+    </nav>
+    <div class="grid-container">
+        <div class="cbox">
+            <h3>Linkdin</h3>
+            <br>
+            <p>Username:-Mohd Mohtasham Ali</p>
+            <br>
+            <a href="https://www.linkedin.com/in/mohd-mohtasham-ali-167156287/"> Click here</a>
+            <br>
+
+        </div>
+
+        <div class="cbox">
+            <h3>Github</h3>
+            <br>
+            <p>Username:-mohtasham ali</p>
+            <br>
+            <a href="https://github.com/mohtashamali">Click here</a>
+
+        </div>
+
+
+        <div class="cbox">
+            <h3>Call me:-</h3>
+            <br>
+            <p>Mobile number: 7097224700</p>
+        </div>
+        <div class="cbox">
+            <h3>Email</h3>
+            <br>
+            <p>Email:-mohdmohtashamali5@gmail.com</p>
+        </div>
+    </div>
+</body>
+
+</html>
