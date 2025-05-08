@@ -5,7 +5,7 @@
  }
 
  body {
-   background-color: rgb(33, 34, 34);
+   background-color: black;   
    color: white;
    /* background-image: url("bg.jpg"); */
    background-attachment: fixed;
@@ -100,7 +100,7 @@
 
  /*  */
  /*  */
- /* Educationsection start */
+ /* Education section start */
  /*  */
  /*  */
  ::selection {
